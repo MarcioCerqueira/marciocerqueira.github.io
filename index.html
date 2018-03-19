@@ -31,11 +31,13 @@
             var thesesElements = document.getElementsByClassName('tab3');
 
             var hidePublications = function (e) {
+                var publications2018 = document.getElementById("publications2018");
                 var publications2017 = document.getElementById("publications2017");
                 var publications2016 = document.getElementById("publications2016");
                 var publications2015 = document.getElementById("publications2015");
                 var publications2014 = document.getElementById("publications2014");
                 var publications2013 = document.getElementById("publications2013");
+                publications2018.style.display = "none";
                 publications2017.style.display = "none";
                 publications2016.style.display = "none";
                 publications2015.style.display = "none";
@@ -44,11 +46,13 @@
             };
 
             var showPublications = function (e) {
+                var publications2018 = document.getElementById("publications2018");
                 var publications2017 = document.getElementById("publications2017");
                 var publications2016 = document.getElementById("publications2016");
                 var publications2015 = document.getElementById("publications2015");
                 var publications2014 = document.getElementById("publications2014");
                 var publications2013 = document.getElementById("publications2013");
+                publications2018.style.display = "inline";
                 publications2017.style.display = "inline";
                 publications2016.style.display = "inline";
                 publications2015.style.display = "inline";
@@ -76,6 +80,7 @@
 
             //Fixing a bug
             if (window.location.hash == '#2') {
+                publications2018.style.display = "inline";
                 publications2017.style.display = "inline";
                 publications2016.style.display = "inline";
                 publications2015.style.display = "inline";
@@ -146,6 +151,32 @@
                                 downloaded at http://www.acm.org/dl/. 
                                 <br />
                                 <br />
+                                <div id="publications2018" style="display: none;">
+                                    <h2>2018</h2>
+                                    <div class="cleaner_h20">
+                                    </div>
+                                    <table align="left">
+                                        <tr>
+                                            <td>
+                                                <img src="images/publications/2018/journals/C&G.png" width="160px" height="139px" alt="" />
+                                            </td>
+                                            <td>
+                                                <p style="font-size: 15px;">
+                                                    <b>Improved Anti-aliasing for Euclidean Distance Transform Shadow Mapping</b></p>
+                                                <b>Márcio Macedo</b>, Antônio Apolinário
+                                                <br />
+                                                Computers & Graphics
+                                                <br />
+                                                <a href="docs/2018/journals/C&G.pdf">[paper]</a>&nbsp;
+                                                <a href="https://youtu.be/V7tH6QXvJic">[video]</a>&nbsp;
+                                                <a href="http://dx.doi.org/10.1016/j.cag.2017.11.006">[doi]</a>&nbsp;
+                                                <a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping">[code]</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="cleaner_h20">
+                                </div>
                                 <div id="publications2017" style="display: none;">
                                     <h2>2017</h2>
                                     <div class="cleaner_h20">
