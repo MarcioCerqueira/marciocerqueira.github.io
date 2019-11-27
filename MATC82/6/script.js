@@ -57,7 +57,7 @@ $(document).ready(function() {
             posiX[0] = 1000;
             posiY[0] = 1000;
             pontuacao += 10;
-            var audio = new Audio('12 horas.mp3');
+            var audio = new Audio('12horas.mp3');
             tocar(audio);
             tocar(audioCompleta);
             verificaFinal();
@@ -85,7 +85,7 @@ $(document).ready(function() {
         }
         if (distancia(playerx, posiX[3], playery, posiY[3]) < 20) {
             cont++;
-            var audio = new Audio('p que pariu.mp3');
+            var audio = new Audio('pquepariu.mp3');
             tocar(audioCompleta);
             tocar(audio);
             pontuacao += 15;
@@ -95,7 +95,7 @@ $(document).ready(function() {
         }
         if (distancia(playerx, posiX[4], playery, posiY[4]) < 20) {
             cont++;
-            var audio = new Audio('abre ai.mp3');
+            var audio = new Audio('abreai.mp3');
             tocar(audioCompleta);
             tocar(audio);
             pontuacao += 15;
@@ -105,7 +105,7 @@ $(document).ready(function() {
         }
         if (distancia(playerx, posiX[5], playery, posiY[5]) < 20) {
             cont++;
-            var audio = new Audio('matar gente.mp3');
+            var audio = new Audio('matargente.mp3');
             tocar(audioCompleta);
             tocar(audio);
             pontuacao += 15;
@@ -124,13 +124,13 @@ $(document).ready(function() {
             verificaFinal();
         }
         if (distancia(playerx, posiXCorreto[0], playery, posiYCorreto[0]) < 20) {
-            var audio = new Audio('vergonha da profissao.mp3');
+            var audio = new Audio('vergonhadaprofissao.mp3');
             tocar(audio);
             pontuacao -= 2;
             alert("VOCÊ É A VERGONHA DA PROFISSION!\nFoque no que está errado!");
         }
         if (distancia(playerx, posiXCorreto[1], playery, posiYCorreto[1]) < 20) {
-            var audio = new Audio('tem como nao ouvir.mp3');
+            var audio = new Audio('temcomonaoouvir.mp3');
             tocar(audio);
             pontuacao -= 7;
             alert("VOCÊ É A VERGONHA DA PROFISSION!\nFoque no que está errado!");
@@ -177,61 +177,61 @@ function renderScene() {
     });
 
     $("canvas").drawImage({
-        source: "iten 0.png",
+        source: "iten0.png",
         x: posiX[0],
         y: posiY[0]
     });
 
     $("canvas").drawImage({
-        source: "iten 1.png",
+        source: "iten1.png",
         x: posiX[1],
         y: posiY[1]
     });
 
     $("canvas").drawImage({
-        source: "iten 2.png",
+        source: "iten2.png",
         x: posiX[2],
         y: posiY[2]
     });
 
     $("canvas").drawImage({
-        source: "iten 3.png",
+        source: "iten3.png",
         x: posiX[3],
         y: posiY[3]
     });
 
     $("canvas").drawImage({
-        source: "iten 14.png",
+        source: "iten14.png",
         x: posiX[4],
         y: posiY[4]
     });
 
     $("canvas").drawImage({
-        source: "iten 4.png",
+        source: "iten4.png",
         x: posiX[5],
         y: posiY[5]
     });
 
     $("canvas").drawImage({
-        source: "rato 2.png",
+        source: "rato2.png",
         x: posiX[6],
         y: posiY[6]
     });
 
     $("canvas").drawImage({
-        source: "iten correto 7.png",
+        source: "itencorreto7.png",
         x: posiXCorreto[0],
         y: posiYCorreto[0]
     });
 
     $("canvas").drawImage({
-        source: "iten correto 2.png",
+        source: "itencorreto2.png",
         x: posiXCorreto[1],
         y: posiYCorreto[1]
     });
 
     $("canvas").drawImage({
-        source: "iten correto 6.png",
+        source: "itencorreto6.png",
         x: posiXCorreto[2],
         y: posiYCorreto[2]
     });
