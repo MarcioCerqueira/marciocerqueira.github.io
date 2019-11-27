@@ -169,7 +169,7 @@ function renderScene() {
     $("canvas").clearCanvas();
 
     $("canvas").drawImage({
-        source: "cenario0.PNG",
+        source: "cenario0.png",
         x: 320,
         y: 240,
         width: 640,
