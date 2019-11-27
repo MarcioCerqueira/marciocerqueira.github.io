@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title> Space Shooter </title>
+		<style>
+			body{
+				background-image: linear-gradient(#353b48,#192a56,#2f3640);
+				background-color: #192a56;
+				background-size: cover;
+			}
+			.container{
+				text-align: center;
+			}
+			.placar{
+				text-align: center;
+			}
+			#tela{
+				position: absolute;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="placar">
+			<canvas id="placar" width="800" height="40"> </canvas>
+		</div>
+		<div class="container">
+			<canvas id="tela" width="800" height="650"> </canvas>
+			<canvas id="game" width="800" height="600"> </canvas>
+		</div>
+
+        <script type="text/javascript" src="..\jquery-3.4.1.min.js"> </script>
+		<script type="text/javascript" src="..\jcanvas.min.js"> </script>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

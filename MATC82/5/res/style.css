@@ -1,0 +1,86 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  overflow: scroll;
+  background: linear-gradient(to left, rgb(188,237,27) 50%, rgb(18,135,100) 50%);
+}
+#content{
+  width: 775px;
+  margin:auto;
+  vertical-align: middle;
+}
+.tituloJogo{
+  text-align: center;
+  padding:10px 0px;
+  font-size: 25px;
+  background:rgb(5,165,172);
+}
+#jogo{
+  width:775px;
+  height:620px;
+  background:#eee  /*temporario*/;
+  position: relative;
+}
+.image{
+  background: url(animals.png);
+  width: 70px;
+  position: absolute;
+  height: 60px;
+}
+.gato{
+  background-position-x: -13px;
+  background-position-Y: 0px;
+}
+.onca{
+  background-position-x: -91px;
+    background-position-Y: 0px;
+}
+.koala{
+  background-position-x: -168px;
+    background-position-Y: 0px;
+}
+.macaco{
+  background-position-x: -13px;
+  background-position-Y: -69px;
+}
+.urso{
+  background-position-x: -86px;
+  background-position-Y: -68px;
+}
+.panda{
+  background-position-x: -167px;
+    background-position-Y: -68px;
+}
+.vazio{
+  background-position-x: -11px;
+  background-position-Y: -144px;
+}
+#areaLancamento{
+  border-top: 1px solid #000;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.lancamento{
+  margin:auto;
+  width: 70px;
+  position: relative;
+  height: 60px;
+}
+#fundo{
+  position: absolute;
+  z-index: 11111;
+  width: inherit;
+  height: inherit;
+}
+#jogar{
+  width: 201px;
+    height: 88px;
+    position: absolute;
+    top: 390px;
+    left: 283px;
+    z-index: 1;
+    border:2px solid #F1DB0F;
+}

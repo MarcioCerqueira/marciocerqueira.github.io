@@ -1,0 +1,5 @@
+body {background-image: url(fundo.jpeg); background-repeat: no-repeat; background-size: 1280px 768px;}
+div {justify-content: center; display: flex; width: 1280px;}
+input {font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white; 
+    background-color: darkblue;}
+article{ color: white; font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
