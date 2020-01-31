@@ -29,6 +29,7 @@ $(document).ready(function() {
 
   $(window).resize();
 
+  $("html").css("visibility","visible");
 });
 
 //Adjusting one- or two-columns distribution

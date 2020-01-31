@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
 	text-align: justify;
+	visibility: hidden;
 	font-family: 'Open Sans';
 }
 
