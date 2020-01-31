@@ -1,0 +1,205 @@
+html {
+	scroll-behavior: smooth;
+	text-align: justify;
+	font-family: 'Open Sans';
+}
+
+article {
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #fff; /* Set the background color */
+  	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%;
+  	font-family: Georgia;
+}
+
+nav a {
+  float: left;
+  display: inline;
+  color: #000;
+  text-align: right;
+  padding: 20px 30px;
+  text-decoration: none; /* Remove the underline */
+}
+
+footer {
+	text-align: center;
+}
+
+#home {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30vh;
+	height: 70vh;
+}
+
+#profile {
+	float: left;
+	padding-right: 15px;	
+	width: 300px;
+	border-radius: 50%;
+}
+
+#name {
+	font-size: 25pt;
+}
+
+#degree {
+	font-size: 20pt;	
+}
+
+#CV {
+	font-size: 12pt;
+}
+
+.active{
+  color: #00eeff;
+}
+
+.header {
+	font-size: 25pt;
+	text-align: center;
+}
+
+.logo {
+	width: 2vw;
+	height: 2vw;
+	min-width: 20px;
+	min-height: 20px;
+}
+
+.logoYouTubeGmail {
+	width: 2.5vw;
+	height: 2vw;
+	min-width: 20px;
+	min-height: 20px;
+}
+
+.icon {
+	display: none;
+}
+
+.menu {
+	display: block;
+}
+
+/* for desktops */
+@media screen and (min-width: 1000px) {
+	nav a:hover {
+	  color: #00eeff;
+	}
+}
+
+/* for tablets */
+@media screen and (max-width: 1000px) {
+
+	nav {
+		position: absolute;
+	}
+
+	#home {
+		width: 100%;
+	}
+
+	#name {
+		font-size: 19pt;
+	}
+
+	#degree {
+		font-size: 14pt;	
+	}
+
+	#CV {
+		font-size: 11pt;
+		text-align: justify;
+	}	
+
+	.logo {
+		width: 3vw;
+		height: 3vw;
+	}
+
+	.logoYouTubeGmail {
+		width: 3.75vw;
+		height: 3vw;
+	}
+
+}
+
+/* for smartphones */
+@media screen and (max-width: 600px) {
+
+	nav {
+		width: auto;
+	}
+
+	nav.responsive {
+		height: 100%;
+	}
+
+	nav a {
+		float: none;
+	}
+
+	nav a.menu {
+		display: none;
+	}
+
+	nav.responsive a.menu {
+		display: block;
+	}
+
+	#home {
+		width: 90%;
+		text-align: center;
+		padding-top: 7vh;
+		height: 93vh;
+	}
+
+	#profile {
+		display: block;	
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		width: 200px;
+		border-radius: 50%;
+	}
+
+	.logo {
+		width: 4vw;
+		height: 4vw;
+	}
+
+	.logoYouTubeGmail {
+		width: 5vw;
+		height: 4vw;
+	}
+
+	.icon {
+		display: block;
+	}
+
+	.header {
+		margin-top: 15px;
+	}
+
+}
+
+@media screen and (max-height: 600px) and (orientation: landscape) {
+
+	#home { 
+		padding-top: 15vh;
+		height: 500px;
+	}
+}
+
+@media screen and (max-height: 600px) and (max-width: 600px) {
+	#home {
+		min-height: 550px;
+	}
+}

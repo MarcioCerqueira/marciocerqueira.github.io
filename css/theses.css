@@ -1,0 +1,76 @@
+#theses {
+	background-color: #45B8AC;
+	padding-top: 5vh;
+	padding-bottom: 15px;
+    display: table;
+	color: white;
+}
+
+.preview {
+	padding-left: 7vw;
+	padding-right: 15px;
+	float: left;
+	width: 250px;
+}
+
+.doc {
+	padding-top: 8vh;
+	float: left;
+	width: 90%;
+	font-size: 15pt;
+	display: table-cell;
+}
+
+.title {
+	font-size: 17pt;
+	margin-top: -5px;
+}
+
+/* for tablets */
+@media screen and (max-width: 1000px) {
+
+	.preview {
+		padding-left: 1vw;
+		width: 200px;
+	}
+
+	.doc {
+		display: block;
+		padding-top: 8vh;
+		float: left;
+		width: 95%;
+		font-size: 11pt;
+	}
+
+	.title {
+		font-size: 12.5pt;
+	}
+
+	#thesesHeader {
+		margin-top: -10px;
+	}
+
+}
+
+/* for smartphones */
+@media screen and (max-width: 600px) {
+
+	.preview {
+		display: block;	
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+
+	.doc {
+		font-size: 11pt;
+		text-align: center;
+		width: 100%;
+	}
+
+	.title {
+		margin-top: 10px;
+	}
+
+}

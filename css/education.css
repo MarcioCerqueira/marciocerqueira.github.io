@@ -1,0 +1,91 @@
+#education {
+	background-color: #39CCCC;
+	padding-top: 5vh;
+	display: grid; 
+	height: 95vh;
+	color: white;
+}
+
+.university {
+	padding-left: 7vw;
+	padding-right: 15px;
+	float: left;
+	width: 125px;
+}
+
+.column {
+	padding-top: 8vh;
+	float: left;
+	width: 50%;
+}
+
+.degree {
+	margin-top: -5px;
+	font-size: 18pt;
+}
+
+/* for tablets */
+@media screen and (max-width: 1000px) {
+
+	#education {
+		padding-top: 0vh; 
+		height: 100vh;
+	}
+
+	.university {
+		padding-left: 1vw;
+		padding-right: 1px;
+		float: left;
+		width: 110px;
+	}
+
+	.degree {
+		font-size: 12.5pt;
+	}
+
+	.column {
+		font-size: 9.8pt;	
+	}
+
+}
+
+/* for smartphones */
+@media screen and (max-width: 600px) {
+
+	.degree {
+		margin-top: -5px;
+		font-size: 3.6vw; /* 10.5pt */
+	}
+
+	.column {
+		display: block;
+		width: 100%;
+		margin-left: 5vw;
+		font-size: 9pt;
+		padding-top: 1vh;
+	}
+
+	.university {
+		padding-left: 0pt;
+		padding-right: 5px;
+		float: left;
+		width: 16vw;
+		min-width: 65px;
+		max-width: 90px;
+	}
+
+}
+
+@media screen and (max-height: 600px) and (max-width: 600px) and (orientation: landscape) {
+
+	#education { 
+		height: 1000px;
+	}
+}
+
+@media screen and (max-height: 600px) {
+
+	#education { 
+		min-height: 600px;
+	}
+}

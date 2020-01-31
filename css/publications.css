@@ -1,0 +1,67 @@
+#publications {
+	background-color: #F3E0BE;
+	padding-top: 5vh;
+	padding-bottom: 15px;
+    display: table;
+	color: black;
+	width: 100%;
+}
+
+.logoPDF {
+	width: 40px;
+	height: 40px;
+}
+
+.logoAppendix {
+	width: 45px;
+	height: 40px;
+}
+
+.logoYouTube {
+	width: 55px;
+	height: 40px;
+}
+
+.logoGitHub {
+	width: 40px;
+	height: 40px;
+}
+
+.logoDOI {
+	width: 40px;
+	height: 40px;
+}
+
+.logoAward {
+	width: 45px;
+	height: 40px;
+}
+
+.logoPoster {
+	width: 45px;
+	height: 40px;
+}
+
+.logoSlides {
+	width: 45px;
+	height: 40px;
+}
+/* for tablets */
+@media screen and (max-width: 1000px) {
+
+	#publicationsHeader {
+		margin-top: -10px;
+	}
+
+	.logoPDF, .logoAppendix, .logoGitHub,
+	.logoDOI, .logoAward, .logoPoster, .logoSlides {
+		width: 30px;
+		height: 30px;
+	}
+
+	.logoYouTube {
+		width: 35px;
+		height: 30px;
+	}
+	
+}
