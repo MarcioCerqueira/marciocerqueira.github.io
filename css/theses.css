@@ -6,7 +6,7 @@
 	color: white;
 }
 
-.preview {
+.preview, .desktop {
 	padding-left: 7vw;
 	padding-right: 15px;
 	float: left;
@@ -26,10 +26,14 @@
 	margin-top: -5px;
 }
 
+.mobile {
+	display: none;
+}
+
 /* for tablets */
 @media screen and (max-width: 1000px) {
 
-	.preview {
+	.preview, .desktop {
 		padding-left: 1vw;
 		width: 200px;
 	}
@@ -56,7 +60,6 @@
 @media screen and (max-width: 600px) {
 
 	.preview {
-		display: block;	
 		padding: 0;
 		margin-left: auto;
 		margin-right: auto;
@@ -71,6 +74,19 @@
 
 	.title {
 		margin-top: 10px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		width: 100%;
 	}
 
 }

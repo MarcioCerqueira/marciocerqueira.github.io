@@ -1,7 +1,6 @@
 html {
 	scroll-behavior: smooth;
 	text-align: justify;
-	visibility: hidden;
 	font-family: 'Open Sans';
 }
 
@@ -172,12 +171,12 @@ footer {
 	}
 
 	.logo {
-		width: 4vw;
+		width: auto;
 		height: 4vw;
 	}
 
 	.logoYouTubeGmail {
-		width: 5vw;
+		width: auto;
 		height: 4vw;
 	}
 

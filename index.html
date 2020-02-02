@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<title>Márcio Macedo's Home Page</title>
 		<link href="css/home.css" rel="stylesheet" type="text/css" />
@@ -8,13 +8,14 @@
 		<link href="css/theses.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Personal Web Page">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     	<script src="script.js"></script>
 	</head>
 	<body>
 		<nav>
-			<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+			<a alt="menu" href="javascript:void(0);" class="icon" onclick="toggleMenu()">
 				<i class="fa fa-bars fa-lg"></i>
 			</a>
 			<a href="#home" class="menu" class="active">Home</a>
@@ -29,10 +30,10 @@
 				<p id="degree"><b>D.Sc. in Computer Science</b></p>
 				<p id="CV">Hello there! I am Márcio Macedo, a computer scientist interested in nearly everything related to <b>computer graphics</b> and <b>image processing</b>. I enjoy to work with <b>augmented reality</b>, <b>real-time rendering</b> and <b>parallel processing</b> applications.</p>
 				<p id="logos"> 
-					<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4406618E1" target="_blank"><img src="imgs\home\Lattes.png" alt="Curriculum Vitae (in Portuguese)" title="Curriculum Vitae (in Portuguese)" class="logo"/></a>
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com.br/citations?user=HsUkoWQAAAAJ&hl=pt-BR&oi=sra" target="_blank"><img src="imgs\home\Scholar.png" alt="Google Scholar" title="Google Scholar" class="logo"/></a>
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira" target="_blank"><img src="imgs\home\GitHub.png" alt="GitHub" title="GitHub" class="logo"/></a>
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCykQvimZ_E7b6Cbbez9SwZA" target="_blank"><img src="imgs\home\YouTube.png" alt="YouTube" title="YouTube" class="logoYouTubeGmail" /></a>
+					<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4406618E1" target="_blank" rel="noopener"><img src="imgs\home\Lattes.png" alt="Curriculum Vitae (in Portuguese)" title="Curriculum Vitae (in Portuguese)" class="logo"/></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com.br/citations?user=HsUkoWQAAAAJ&hl=pt-BR&oi=sra" target="_blank" rel="noopener"><img src="imgs\home\Scholar.png" alt="Google Scholar" title="Google Scholar" class="logo"/></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira" target="_blank" rel="noopener"><img src="imgs\home\GitHub.png" alt="GitHub" title="GitHub" class="logo"/></a>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/UCykQvimZ_E7b6Cbbez9SwZA" target="_blank" rel="noopener"><img src="imgs\home\YouTube.png" alt="YouTube" title="YouTube" class="logoYouTubeGmail" /></a>
 					&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:marciocfmacedo@gmail.com"><img src="imgs\home\Gmail.png" alt="marciocfmacedo@gmail.com" title="marciocfmacedo@gmail.com" class="logoYouTubeGmail" /></a>
 				</p>
 			</section>
@@ -74,203 +75,231 @@
 			<section id="publications">
 				<p class="header" id="publicationsHeader"><b>Publications</b></p>
 				<div class="doc">
-					<img src="imgs\publications\2019-CGF.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2019-CGF.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2019-CGF-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Revectorization-Based Soft Shadow Mapping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Karl Agüero</p>
 					<p>Computer Graphics Forum (2019)</p>
-					<a href="docs\publications\2019-CGF.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2019-CGF-Supp.pdf"><img src="imgs\home\Appendix.png" alt="Appendix" title="Supplementary Document" class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1111/cgf.13810"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/q9LNMSdEOK8"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2019-CGF.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2019-CGF-Supp.pdf"><img class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1111/cgf.13810"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/q9LNMSdEOK8"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\theses\DSc.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\theses\DSc.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\theses\DSc-Mobile.jpg" alt="D.Sc. Thesis" class="mobile"/>
 					<p class="title"><b>Efficient Shadow Anti-Aliasing Techniques using Silhouette Revectorization</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2018)</p>
-					<a href="http://sibgrapi.sid.inpe.br/archive.cgi/sid.inpe.br/sibgrapi/2018/10.16.13.06"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-WTD-Poster.pdf"><img src="imgs\home\Poster.png" alt="Poster" title="Poster" class="logoPoster"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2018-SIBGRAPI.pdf"><img src="imgs\home\Award.png" alt="Award" title="Award" class="logoAward"/></a>
+					<a href="http://sibgrapi.sid.inpe.br/archive.cgi/sid.inpe.br/sibgrapi/2018/10.16.13.06"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-WTD-Poster.pdf"><img class="logoPoster"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2018-SIBGRAPI.pdf"><img class="logoAward"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2018-SIBGRAPI.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2018-SIBGRAPI.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2018-SIBGRAPI-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Real-Time High-Quality Specular Highlight Removal using Efficient Pixel Clustering</b></p>
 					<p>Antonio Souza, <b>Márcio Macedo</b>, Verônica Nascimento, Bruno Oliveira</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2018)</p>
-					<a href="docs\publications\2018-SIBGRAPI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-Supp.pdf"><img src="imgs\home\Appendix.png" alt="Appendix" title="Supplementary Document" class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/RealTimeSpecularHighlightRemoval"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2018.00014"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>
+					<a href="docs\publications\2018-SIBGRAPI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-Supp.pdf"><img class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2018-SIBGRAPI-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/RealTimeSpecularHighlightRemoval"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2018.00014"><img class="logoDOI"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2018-JRTIP.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2018-JRTIP.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2018-JRTIP-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Real-Time Shadow Detection using Multi-Channel Binarization and Noise Removal</b></p>
 					<p><b>Márcio Macedo</b>, Verônica Nascimento, Antonio Souza</p>
 					<p>Journal of Real-Time Image Processing (2018)</p>
-					<a href="docs\publications\2018-JRTIP.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/RealTimeShadowDetection"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1007/s11554-018-0799-3"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/kc9DApyAoA0"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2018-JRTIP.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/RealTimeShadowDetection"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1007/s11554-018-0799-3"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/kc9DApyAoA0"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\theses\DSc.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\theses\DSc.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2018-C&G-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Improved Anti-aliasing for Euclidean Distance Transform Shadow Mapping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>Computers & Graphics (2018)</p>
-					<a href="docs\publications\2018-C&G.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1016/j.cag.2017.11.006"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/V7tH6QXvJic"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2018-C&G.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1016/j.cag.2017.11.006"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/V7tH6QXvJic"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2017-SBGAMES.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2017-SBGAMES.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2017-SBGAMES-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Hard Shadow Anti-Aliasing for Spot Lights in a Game Engine</b></p>
 					<p><b>Márcio Macedo</b>, Almir Teixeira, Antônio Apolinário, Karl Agüero</p>
 					<p>SBGAMES - Brazilian Symposium on Computer Games and Digital Entertainment (2017)</p>
-					<a href="docs\publications\2017-SBGAMES.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-SBGAMES-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/RBSMinUnity"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SBGames.2017.00020"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/_XyHxoz8W5w"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2017-SBGAMES.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-SBGAMES-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/RBSMinUnity"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SBGames.2017.00020"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/_XyHxoz8W5w"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2017-SIBGRAPI.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2017-SIBGRAPI.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2017-SIBGRAPI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Euclidean Distance Transform Soft Shadow Mapping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2017)</p>
-					<a href="docs\publications\2017-SIBGRAPI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-SIBGRAPI-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/SoftShadowMapping"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2017.38"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/lHqm2w2z70M"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2017-SIBGRAPI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-SIBGRAPI-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/SoftShadowMapping"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2017.38"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/lHqm2w2z70M"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2017-GI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2017-GI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2017-GI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Euclidean Distance Transform Shadow Mapping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>GI - Graphics Interface (2017)</p>
-					<a href="docs\publications\2017-GI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-Supp.pdf"><img src="imgs\home\Appendix.png" alt="Appendix" title="Supplementary Document" class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2017.22"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/RPG-naOGt7U"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2017-GI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-Supp.pdf"><img class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2017.22"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/RPG-naOGt7U"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2017-GI-2.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2017-GI-2.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2017-GI-2-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Revectorization-Based Accurate Soft Shadow using Adaptive Area Light Source Sampling</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>GI - Graphics Interface (2017)</p>
-					<a href="docs\publications\2017-GI-2.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-2-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/SoftShadowMapping"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2017.23"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/2yK-6hWRxLc"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2017-GI-2.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2017-GI-2-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/SoftShadowMapping"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2017.23"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/2yK-6hWRxLc"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2016-GI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2016-GI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2016-GI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Revectorization-Based Shadow Mapping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>GI - Graphics Interface (2016)</p>
-					<a href="docs\publications\2016-GI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;<a href="docs\publications\2016-GI-Supp.pdf"><img src="imgs\home\Appendix.png" alt="Appendix" title="Supplementary Document" class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2016-GI-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2016.10"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/Swt8MGxZxxg"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2016-GI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;<a href="docs\publications\2016-GI-Supp.pdf"><img class="logoAppendix"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2016-GI-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/GlobalIllumination/tree/master/ShadowMapping"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.20380/GI2016.10"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/Swt8MGxZxxg"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2015-C&G.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2015-C&G.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2015-C&G-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Focus plus Context Visualization based on Volume Clipping for Markerless On-Patient Medical Data Visualization</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>Computers & Graphics (2015)</p>
-					<a href="docs\publications\2015-C&G.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1016/j.cag.2015.09.007"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/YPUsFzbrE2I"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2015-C&G.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1016/j.cag.2015.09.007"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/YPUsFzbrE2I"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2015-VR.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2015-VR.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2015-VR-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A GPU-Based Adaptive Algorithm for Non-Rigid Surface Registration</b></p>
 					<p>Antonio Souza, <b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>VR - Virtual Reality (2015)</p>
-					<a href="docs\publications\2015-VR.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1109/VR.2015.7223409"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>
+					<a href="docs\publications\2015-VR.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1109/VR.2015.7223409"><img class="logoDOI"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2015-SIBGRAPI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2015-SIBGRAPI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2015-SIBGRAPI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A Markerless Augmented Reality Environment for On-Patient Medical Data Visualization</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2015)</p>
-					<a href="http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2015/07.31.16.59/doc/WTDSIBGRAPI2015-Marcio-CameraReady-Compressed.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2015-SIBGRAPI-Poster.pdf"><img src="imgs\home\Poster.png" alt="Poster" title="Poster" class="logoPoster"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>
+					<a href="http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2015/07.31.16.59/doc/WTDSIBGRAPI2015-Marcio-CameraReady-Compressed.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2015-SIBGRAPI-Poster.pdf"><img class="logoPoster"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img class="logoGitHub"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-SIBGRAPI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-SIBGRAPI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-SIBGRAPI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Improving On-Patient Medical Data Visualization in a Markerless Augmented Reality Environment by Volume Clipping</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2014)</p>
-					<a href="docs\publications\2014-SIBGRAPI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-SIBGRAPI-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2014.33"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/8kklFWAKe6c"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2014-SIBGRAPI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-SIBGRAPI-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SIBGRAPI.2014.33"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/8kklFWAKe6c"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-VRCAI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-VRCAI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-VRCAI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>Multi-Frame Adaptive Non-Rigid Registration for Markerless Augmented Reality</b></p>
 					<p>Antonio Souza, <b>Márcio Macedo</b>, Antônio Apolinário</p>
 					<p>VRCAI - Conference on VR Continuum and its Applications in Industry (2014)</p>
-					<a href="docs\publications\2014-VRCAI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1145/2670473.2670486"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>
+					<a href="docs\publications\2014-VRCAI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://dx.doi.org/10.1145/2670473.2670486"><img class="logoDOI"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-JIS.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-JIS.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-JIS-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>High-Quality On-Patient Medical Data Visualization in a Markerless Augmented Reality Environment</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Antonio Souza, Gilson Giraldi</p>
 					<p>Journal on 3D Interactive Systems (2014)</p>
-					<a href="http://www.seer.ufrgs.br/jis/article/viewFile/49921/32554"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.seer.ufrgs.br/index.php/jis/article/view/49921/32620"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="http://www.seer.ufrgs.br/jis/article/viewFile/49921/32554"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.seer.ufrgs.br/index.php/jis/article/view/49921/32620"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-WIM.jpg" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-WIM.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-WIM-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A Markerless Augmented Reality Environment for Medical Data Visualization</b></p>
 					<p><b>Márcio Macedo</b>, Caio Almeida, Antonio Souza, Josildo Silva, Antônio Apolinário, Gilson Giraldi</p>
 					<p>WIM - <i>Workshop de Informática Médica</i> (2014)</p>
-					<a href="docs\publications\2014-WIM.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-WIM-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2014-WIM.jpeg"><img src="imgs\home\Award.png" alt="Award" title="Award" class="logoAward"/></a>
+					<a href="docs\publications\2014-WIM.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-WIM-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2014-WIM.jpeg"><img class="logoAward"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-SVR.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-SVR.jpg" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-SVR-Mobile.jpg" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A Semi-Automatic Markerless Augmented Reality Approach for On-Patient Volumetric Medical Data Visualization</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Antonio Souza, Gilson Giraldi</p>
 					<p>SVR - Symposium on Virtual and Augmented Reality (2014)</p>
-					<a href="docs\publications\2014-SVR.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-SVR-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SVR.2014.29"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/BslqMZ_9CB8"><img src="imgs\home\YouTube.png" alt="YouTube Video" title="Video" class="logoYouTube"/></a>
+					<a href="docs\publications\2014-SVR.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2014-SVR-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/MyKinectFusion"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SVR.2014.29"><img class="logoDOI"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://youtu.be/BslqMZ_9CB8"><img class="logoYouTube"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2014-SBIE.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2014-SBIE.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2014-SBIE-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b><i>Um Jogo para aprender Libras e Português nas séries iniciais utilizando a tecnologia da Realidade Aumentada</i></b></p>
 					<p>Luiz Santos, Theresinha Miranda, Maria Santos, Antonio Souza, <b>Márcio Macedo</b>, Paulo Poppe</p>
 					<p>SBIE - <i>Simpósio Brasileiro de Informática na Educação</i> (2014)</p>
-					<a href="https://www.br-ie.org/pub/index.php/sbie/article/download/3057/2565"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>
+					<a href="https://www.br-ie.org/pub/index.php/sbie/article/download/3057/2565"><img class="logoPDF"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-JIS.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-JIS.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-JIS-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>KinectFusion for Faces: Real-Time 3D Face Tracking and Modeling Using a Kinect Camera for a Markerless AR System</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Antonio Souza</p>
 					<p>SBC Journal on 3D Interactive Systems (2013)</p>
-					<a href="http://seer.ufrgs.br/index.php/jis/article/view/41747/28435"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/KinectFusionForFaces"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>
+					<a href="http://seer.ufrgs.br/index.php/jis/article/view/41747/28435"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/KinectFusionForFaces"><img class="logoGitHub"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-SIBGRAPI.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-SIBGRAPI.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-SIBGRAPI-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A Markerless Augmented Reality Approach Based On Real-Time 3D Reconstruction using Kinect</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Antonio Souza</p>
 					<p>SIBGRAPI - Conference on Graphics, Patterns and Images (2013)</p>
-					<a href="docs\publications\2013-SIBGRAPI.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2013-SIBGRAPI-Poster.pdf"><img src="imgs\home\Poster.png" alt="Poster" title="Poster" class="logoPoster"/></a>
+					<a href="docs\publications\2013-SIBGRAPI.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2013-SIBGRAPI-Poster.pdf"><img class="logoPoster"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-JIS.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-JIS.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-JIS-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b>A Robust Real-Time Face Tracking Using Head Pose Estimation for a Markerless AR System</b></p>
 					<p><b>Márcio Macedo</b>, Antônio Apolinário, Antonio Souza</p>
 					<p>SVR - Symposium on Virtual and Augmented Reality (2013)</p>
-					<a href="docs\publications\2013-SVR.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2013-SVR-Slides.pdf"><img src="imgs\home\PPT.png" alt="Slides" title="Slides" class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/KinectFusionForFaces"><img src="imgs\home\GitHub.png" alt="Source Code" title="Source Code" class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SVR.2013.12"><img src="imgs\home\DOI.png" alt="DOI" title="DOI (Digital Object Identifier)" class="logoDOI"/></a>
+					<a href="docs\publications\2013-SVR.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\publications\2013-SVR-Slides.pdf"><img class="logoSlides"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/MarcioCerqueira/KinectFusionForFaces"><img class="logoGitHub"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://doi.org/10.1109/SVR.2013.12"><img class="logoDOI"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-SBGAMES.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-SBGAMES.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-SBGAMES-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b><i>Aprendendo número em LIBRAS com a tecnologia da Realidade Aumentada</i></b></p>
 					<p>Luiz Santos, Antonio Souza, Tonykley Santos, Theresinha Miranda, <b>Márcio Macedo</b></p>
 					<p>SBGAMES - Brazilian Symposium on Computer Games and Digital Entertainment (2013)</p>
-					<a href="docs\publications\2013-SBGAMES.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>
+					<a href="docs\publications\2013-SBGAMES.pdf"><img class="logoPDF"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-CONAHPA.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-CONAHPA.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-CONAHPA-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b><i>Desenvolvimento de um jogo da memória utilizando a realidade aumentada para o processo de ensino aprendizagem de deficientes auditivos ou surdos</i></b></p>
 					<p>Luiz Santos, <b>Márcio Macedo</b>, Tonykley Santos, Theresinha Miranda</p>
-					<p>CONAHPA - <i>Congresso Nacional de Ambientes Hipermídia para Aprendizagem</i>(2013)</p>
-					<a href="docs\publications\2013-CONAHPA.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>
+					<p>CONAHPA - <i>Congresso Nacional de Ambientes Hipermídia para Aprendizagem</i> (2013)</p>
+					<a href="docs\publications\2013-CONAHPA.pdf"><img class="logoPDF"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\publications\2013-TISE.png" alt="Paper Image" class="preview"/>
+					<img src="imgs\publications\2013-TISE.png" alt="Paper Image" class="desktop"/>
+					<img src="imgs\publications\2013-TISE-Mobile.png" alt="Paper Image" class="mobile"/>
 					<p class="title"><b><i>Jogando com a Realidade Aumentada e Aprendendo com LIBRAS</i></b></p>
 					<p>Luiz Santos, Theresinha Miranda, Maria Santos, Tonykley Santos, <b>Márcio Macedo</b></p>
-					<p>TISE - <i>Taller Internacional de Software Educativo</i>(2013)</p>
-					<a href="docs\publications\2013-TISE.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="Main Paper" class="logoPDF"/></a>
+					<p>TISE - <i>Taller Internacional de Software Educativo</i> (2013)</p>
+					<a href="docs\publications\2013-TISE.pdf"><img class="logoPDF"/></a>
 				</div>
 			</section>
 			<section id="theses">
 				<p class="header" id="thesesHeader"><b>Theses</b></p>
 				<div class="doc">
-					<img src="imgs\theses\DSc.jpg" alt="D.Sc. Thesis" class="preview"/>
+					<img src="imgs\theses\DSc.jpg" alt="D.Sc. Thesis" class="desktop"/>
+					<img src="imgs\theses\DSc-Mobile.jpg" alt="D.Sc. Thesis" class="mobile"/>
 					<p class="title"><b>Efficient Shadow Anti-Aliasing Techniques using Silhouette Revectorization</b></p>
 					<p>Advisor: D.Sc. Antônio Apolinário</p>
 					<p>D.Sc. Thesis (2018)</p>
-					<a href="docs\theses\DSc.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="PDF" class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2018-SIBGRAPI.pdf"><img src="imgs\home\Award.png" alt="Award" title="Award" class="logoAward"/></a>
+					<a href="docs\theses\DSc.pdf"><img class="logoPDF"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="docs\awards\2018-SIBGRAPI.pdf"><img class="logoAward"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\theses\MSc.jpg" alt="M.Sc. Dissertation" class="preview"/>
+					<img src="imgs\theses\MSc.jpg" alt="M.Sc. Dissertation" class="desktop"/>
+					<img src="imgs\theses\MSc-Mobile.jpg" alt="M.Sc. Dissertation" class="mobile"/>
 					<p class="title"><b>A Markerless Augmented Reality Environment for On-Patient Medical Data Visualization</b></p>
 					<p>Advisor: D.Sc. Antônio Apolinário</p>
 					<p>M.Sc. Dissertation (2014)</p>
-					<a href="docs\theses\MSc.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="PDF" class="logoPDF"/></a>
+					<a href="docs\theses\MSc.pdf"><img class="logoPDF"/></a>
 				</div>
 				<div class="doc">
-					<img src="imgs\theses\Tech.jpg" alt="Undergraduate Final Work" class="preview"/>
+					<img src="imgs\theses\Tech.jpg" alt="Undergraduate Final Work" class="desktop"/>
+					<img src="imgs\theses\Tech-Mobile.jpg" alt="Undergraduate Final Work" class="mobile"/>
 					<p class="title"><b><i>Reconstrução de Modelos 3-D em Tempo Real Utilizando Kinect e GPU</i></b></p>
 					<p>Advisor: D.Sc. Antonio Souza</p>
 					<p>Undergraduate Final Work (2012)</p>
-					<a href="docs\theses\Tech.pdf"><img src="imgs\home\PDF.png" alt="PDF" title="PDF" class="logoPDF"/></a>
+					<a href="docs\theses\Tech.pdf"><img class="logoPDF"/></a>
 				</div>
 			</section>
 		</article>

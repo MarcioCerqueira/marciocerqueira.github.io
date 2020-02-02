@@ -18,7 +18,8 @@ $(document).ready(function() {
     $("a").removeClass("active");
     $("a[href$='" + chosenId + "']").addClass("active");
   });
-  
+
+  //Adjust one- or two-columns distribution  
   $(window).resize(function() {
     adjustColumns();  
   })
@@ -29,10 +30,11 @@ $(document).ready(function() {
 
   $(window).resize();
 
-  $("html").css("visibility","visible");
+  //Load HTML attributes of logo images
+  loadLogos();
+
 });
 
-//Adjusting one- or two-columns distribution
 function adjustColumns() {
 
   if($(window).outerWidth() < 600) {
@@ -49,6 +51,42 @@ function adjustColumns() {
     $("#row2").append($("#column3"));
     $("#row2").append($("#column4"));
   }
+}
+
+function loadLogos() {
+  
+  $(".logoPDF").attr("src", "imgs\\home\\PDF.png");
+  $(".logoPDF").attr("alt", "PDF");
+  $(".logoPDF").attr("title", "Main Paper");
+
+  $(".logoAppendix").attr("src", "imgs\\home\\Appendix.png");
+  $(".logoAppendix").attr("alt", "Appendix");
+  $(".logoAppendix").attr("title", "Supplementary Document");
+
+  $(".logoGitHub").attr("src", "imgs\\home\\GitHub.png");
+  $(".logoGitHub").attr("alt", "Source Code");
+  $(".logoGitHub").attr("title", "Source Code");
+
+  $(".logoDOI").attr("src", "imgs\\home\\DOI.png");
+  $(".logoDOI").attr("alt", "DOI");
+  $(".logoDOI").attr("title", "DOI (Digital Object Identifier)");
+
+  $(".logoYouTube").attr("src", "imgs\\home\\YouTube.png");
+  $(".logoYouTube").attr("alt", "YouTube Video");
+  $(".logoYouTube").attr("title", "Video");
+
+  $(".logoSlides").attr("src", "imgs\\home\\PPT.png");
+  $(".logoSlides").attr("alt", "Slides");
+  $(".logoSlides").attr("title", "Slides");
+
+  $(".logoAward").attr("src", "imgs\\home\\Award.png");
+  $(".logoAward").attr("alt", "Award");
+  $(".logoAward").attr("title", "Award");
+
+  $(".logoPoster").attr("src", "imgs\\home\\Poster.png");
+  $(".logoPoster").attr("alt", "Poster");
+  $(".logoPoster").attr("title", "Poster");
+
 }
 
 function toggleMenu() {
